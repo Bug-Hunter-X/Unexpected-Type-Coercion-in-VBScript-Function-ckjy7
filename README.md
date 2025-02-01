@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, bug in VBScript related to type coercion. The `bug.vbs` file contains a function that attempts to handle empty or non-numeric inputs, but it doesn't explicitly check for Empty values, leading to unexpected behavior. The `bugSolution.vbs` demonstrates how to rectify the issue using more robust type checking.
